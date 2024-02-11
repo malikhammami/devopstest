@@ -1,0 +1,47 @@
+version: '3'
+services:
+  mysqldb:
+    image: mysql:5.7
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: achatdb
+    ports:
+      - 3306:3306
+    volumes:
+      - db:/var/lib/mysql
+    networks:
+      - SpringNetwork
+      
+  SpringAchat:
+    image: malikhammami99/springachat
+    ports:
+      - 8089:8089
+    environment:
+      MYSQL_HOST: mysqldb
+      MYSQL_PORT: 3306
+    depends_on:
+      - mysqldb
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://mysqldb:3306"]
+      interval: 10s
+      retries: 5
+    networks:
+      - SpringNetwork
+      - AngularNetwork
+
+  AngularAchat:
+    image: malikhammami99/angularachat
+    ports:
+      - 4200:80
+    depends_on:
+      - SpringAchat
+    networks:
+      - AngularNetwork
+
+volumes:
+  db:
+
+networks:
+  SpringNetwork:
+  AngularNetwork:
