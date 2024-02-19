@@ -46,7 +46,7 @@ pipeline {
 
                     git branch: branchName,
                     url: ' https://github.com/malikhammami/devopstest.git',  
-                    credentialsId: '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'
+                    credentialsId: 'git_test_cred'
                 }
                 echo "Current branch name: ${branchName}"
                 echo "Current branch name: ${targetBranch}"
