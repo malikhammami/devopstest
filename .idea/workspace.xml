@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b42d2cb-0f81-4129-9945-c604c39ee677" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/CategorieProduitServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FactureServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/FournisseurServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/IProduitService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ProduitServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/ReglementServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/tn/esprit/rh/achat/services/StockServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2WrIwEYoveLyLIvXMmLBzHPQp7X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Malik/Documents/Devops&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b82d04823d936ca1edb92994b8cabeff&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tn.esprit.rh.achat" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AchatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="achat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.rh.achat.AchatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b42d2cb-0f81-4129-9945-c604c39ee677" name="Changes" comment="" />
+      <created>1697484509691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697484509691</updated>
+      <workItem from="1697484510989" duration="28000" />
+      <workItem from="1698003859309" duration="318000" />
+      <workItem from="1698090893983" duration="19000" />
+      <workItem from="1698256615028" duration="284000" />
+      <workItem from="1698257033439" duration="717000" />
+      <workItem from="1698326890639" duration="2023000" />
+      <workItem from="1698340785640" duration="693000" />
+      <workItem from="1698428207937" duration="1944000" />
+      <workItem from="1698431588054" duration="24000" />
+      <workItem from="1698513620376" duration="60000" />
+      <workItem from="1698513907839" duration="6000" />
+      <workItem from="1698516511553" duration="652000" />
+      <workItem from="1698521872853" duration="872000" />
+      <workItem from="1698524545950" duration="2432000" />
+      <workItem from="1698536916204" duration="219000" />
+      <workItem from="1698537778151" duration="28000" />
+      <workItem from="1698860162843" duration="62000" />
+      <workItem from="1699027097440" duration="1177000" />
+      <workItem from="1699113529373" duration="1384000" />
+      <workItem from="1699115380231" duration="4000" />
+      <workItem from="1699119634938" duration="483000" />
+      <workItem from="1699276991498" duration="606000" />
+      <workItem from="1699608711877" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
