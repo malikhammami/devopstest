@@ -35,7 +35,7 @@ pipeline {
         string(name: 'CHANGE_TARGET', defaultValue: '', description: 'Git change ID for the target merge requests')
     }
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('docker-hub-credentials')
+        DOCKERHUB_CREDENTIALS = credentials('docker_cred')
     }
     stages {
         stage('Github Auth') {
@@ -46,7 +46,7 @@ pipeline {
 
                     git branch: branchName,
                     url: 'https://github.com/malikhammami/devopstest.git',
-                    credentialsId: 'git_test_cred'
+                    credentialsId: 'git_cred'
                 }
                 echo "Current branch name: ${branchName}"
                 echo "Current branch name: ${targetBranch}"
